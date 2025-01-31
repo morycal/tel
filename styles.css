@@ -36,13 +36,27 @@ header {
     margin-top: 10px;
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.leaderboard {
+    margin: 20px;
+    text-align: left;
 }
 
-.menu a {
-    color: #fff;
-    text-decoration: none;
+.leader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.leader-rank {
+    font-weight: bold;
+}
+
+.leader-name {
+    flex-grow: 1;
+    padding: 0 10px;
+}
+
+.leader-points {
+    color: #FFD700; /* Gold color for points */
 }
